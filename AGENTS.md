@@ -1,5 +1,9 @@
 # LUMI AITTA API client
 
+CBS Model Agent (https://github.com/CBS-HPC/model-agent) is the cross-provider
+consumer. The UCloud provider agent must not depend on this package. Keep model
+selection and task-specific checks in the wrapper; API transport/control stays here.
+
 This package owns the generic AITTA control API: project-token settings, safe
 HTTP transport, live model/capability discovery, service/worker status and explicit
 preload. Follow the dependency boundary used by CBS-HPC/ucloud-api. Consumers own

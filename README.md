@@ -1,5 +1,10 @@
 # LUMI AITTA API
 
+The independent LUMI control client consumed by
+[CBS Model Agent](https://github.com/CBS-HPC/model-agent).
+The wrapper owns provider selection and task verification; the UCloud inference
+provider has no dependency on this package. The API client remains independently usable.
+
 A Python client and CLI for AITTA's managed inference control API, designed as a
 reusable dependency for hosting agents in the same pattern as CBS-HPC/ucloud-api.
 It reads available models/capabilities, service/worker status and explicitly
