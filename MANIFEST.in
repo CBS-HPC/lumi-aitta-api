@@ -1,2 +1,4 @@
 include AGENTS.md TODO.md .env.example
 recursive-include docs *.md
+include LICENSE.md
+recursive-include LICENSES *.txt

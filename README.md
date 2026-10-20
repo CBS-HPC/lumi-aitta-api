@@ -53,3 +53,9 @@ validation is pending; no model or allocation has been started by development.
 python -m pytest
 python -m build
 ```
+
+## License
+
+Code, configuration templates and code examples use MIT. Documentation uses
+CC BY 4.0. See [license scope and attribution](LICENSE.md) and the full texts in
+[LICENSES/](LICENSES/).

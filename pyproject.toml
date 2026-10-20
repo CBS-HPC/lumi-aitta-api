@@ -8,6 +8,8 @@ version = "0.1.0"
 description = "Python client and CLI for LUMI AITTA managed inference"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT AND CC-BY-4.0"
+license-files = ["LICENSE.md", "LICENSES/*.txt"]
 dependencies = []
 
 [project.optional-dependencies]
