@@ -23,3 +23,7 @@ There is no GPU sizing, UCloud template logic, notebook hosting or unattended
 scheduler here. Unit tests use mocked transport; do not call live AITTA in tests.
 No authenticated live validation has yet been performed. Do not claim otherwise.
 Maintain README, docs and TODO with behavior; releases must pass tests and build.
+Keep operator project names, resource IDs and deployment URLs out of tracked
+documentation. Use role labels and reserved example domains where needed; retain
+official AITTA service/API origins. Follow CBS Model Agent's docs/publication.md
+before changing repository visibility or published history.
