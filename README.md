@@ -10,6 +10,14 @@ reusable dependency for hosting agents in the same pattern as CBS-HPC/ucloud-api
 It reads available models/capabilities, service/worker status and explicitly
 requests loading an offline model. It does not submit Slurm jobs itself.
 
+Install the released client:
+
+```sh
+python -m pip install "lumi-aitta-api @ git+https://github.com/CBS-HPC/lumi-aitta-api.git@v0.1.1"
+```
+
+For development from a source checkout:
+
 ```powershell
 python -m pip install -e ".[dev]"
 aitta models

@@ -1,13 +1,22 @@
 # Remaining work
 
+## Public release (2026-10-20)
+
+The operator approved historical cleanup and public publication of the three
+inference repositories. This client's history and release files contained no
+targeted operational identifiers, so its historical refs were preserved. Release
+v0.1.1 includes the full MIT/CC BY 4.0 texts, package metadata and installation
+instructions. The coordinated publication record is in CBS Model Agent's
+docs/publication.md. Live AITTA validation remains a separate authorized workload.
+
 ## Publication cleanup (2026-10-20)
 
 The operator chose to sanitize operational identifiers across the three inference
 repositories. This client's current documentation contains no operator project
 names, job/resource IDs or deployment URLs requiring replacement; official AITTA
 origins are retained. AGENTS.md records the policy for future documentation.
-Keep visibility private until the coordinated history/release gate described in
-CBS Model Agent's docs/publication.md has been resolved.
+The coordinated history/release gate and publication outcome are recorded in
+CBS Model Agent's docs/publication.md.
 
 ## Licensing (2026-10-20)
 
